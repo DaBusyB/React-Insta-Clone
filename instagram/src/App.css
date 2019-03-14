@@ -22,9 +22,10 @@ time, mark, audio, video {
 /*  */
 
 .appContainer {
-  border: 1px solid blue;
+  background-color: #DBDBFF;
   width: 1086px;
   height: 2000px;
   margin: 0 auto;
   margin-top: 54px;
+  text-align: center;
 }

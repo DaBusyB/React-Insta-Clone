@@ -2,10 +2,10 @@ import React from 'react';
 
 import './SearchBar.css'
 
-function SearchBar {
+const SearchBar = () => {
     return (
         <div>
-            <h1>SearchBar</h1>
+            <h1 className='searchBar'>SearchBar</h1>
         </div>
     )
 }

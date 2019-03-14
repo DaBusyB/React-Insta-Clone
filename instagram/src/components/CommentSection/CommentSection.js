@@ -2,9 +2,9 @@ import React from 'react';
 
 import './CommentSection.css'
 
-function CommentSection {
+const CommentSection = () => {
     return (
-        <div>
+        <div className='commentSection'>
             <h1>CommentSection</h1>
         </div>
     )

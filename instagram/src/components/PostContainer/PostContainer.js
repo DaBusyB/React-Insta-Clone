@@ -3,10 +3,11 @@ import React from 'react';
 import './PostContainer.css'
 import CommentSection from '../CommentSection/CommentSection';
 
-function PostContainer {
+const PostContainer = () => {
     return (
-        <div>
+        <div className='postContainer'>
             <h1>PostContainer</h1>
+            <CommentSection />
         </div>
     )
 }
