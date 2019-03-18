@@ -10,14 +10,20 @@ class App extends Component {
     super();
 
     this.state = {
-      posts: dummyData;
-    }
+      igData: dummyData,
+    };
   }
   render() {
     return (
       <div className='appContainer'>
         <SearchBarContainer /> 
-        <PostContainer />
+
+        {this.state.igData.map(eaItem =>   
+          <PostContainer 
+            eaPost={eaItem} 
+            key={eaItem.username} 
+          /> 
+        )}
       </div>
     );
   }

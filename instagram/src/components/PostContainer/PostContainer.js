@@ -3,10 +3,11 @@ import React from 'react';
 import './PostContainer.css'
 import CommentSection from '../CommentSection/CommentSection';
 
-const PostContainer = () => {
+const PostContainer = props => {
     return (
         <div className='postContainer'>
-            <h1>PostContainer</h1>
+            <img src={props.eaPost.imageUrl} alt={props.eaPost.username}/>
+            
             <CommentSection />
         </div>
     )
