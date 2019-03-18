@@ -24,10 +24,14 @@ time, mark, audio, video {
 .postContainer {
 	border: 1px solid #DBDBDB;
 	width: 614px;
-	height: 500px;
-	/* display: inline-block; */
-	position: absolute;
-	left: 364px;
+	height: 100%;
+	margin-left: 364px;
 	margin-top: 49px;
+	margin-bottom: 60px;
 	border-radius: 4px;
+}
+
+.postContainer img {
+	width: 613px;
+	margin-top: 60px;
 }
