@@ -18,12 +18,14 @@ class App extends Component {
       <div className='appContainer'>
         <SearchBarContainer /> 
 
-        {this.state.igData.map(eaItem =>   
-          <PostContainer 
-            eaPost={eaItem} 
-            key={eaItem.username} 
-          /> 
-        )}
+        <div>
+          {this.state.igData.map(eaItem =>   
+            <PostContainer 
+              eaPost={eaItem} 
+              key={eaItem.username} 
+            /> 
+          )}
+        </div>
       </div>
     );
   }
