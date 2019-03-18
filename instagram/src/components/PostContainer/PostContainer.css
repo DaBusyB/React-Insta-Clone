@@ -22,9 +22,12 @@ time, mark, audio, video {
 /*  */
 
 .postContainer {
-	border: 1px solid red;
-	width: 976px;
+	border: 1px solid #DBDBDB;
+	width: 614px;
 	height: 500px;
-	display: inline-block;
-	margin-top: 64px;
+	/* display: inline-block; */
+	position: absolute;
+	left: 364px;
+	margin-top: 49px;
+	border-radius: 4px;
 }

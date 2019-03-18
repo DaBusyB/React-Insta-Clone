@@ -22,9 +22,9 @@ time, mark, audio, video {
 /*  */
 
 .commentSection {
-	border: 1px solid purple;
-	width: 920px;
-	height: 180px;
+	border-top: 1px solid #EFEFEF;
+	width: 584px;
+	height: 56px;
 	margin: 0 auto;
-	margin-top: 262px;
+	//margin-top: 262px;
 }

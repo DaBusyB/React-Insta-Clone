@@ -4,8 +4,8 @@ import './SearchBar.css'
 
 const SearchBar = () => {
     return (
-        <div>
-            <h1 className='searchBar'>SearchBar</h1>
+        <div className="searchBar"> 
+            <input type="text"  placeholder="Search" /> 
         </div>
     )
 }

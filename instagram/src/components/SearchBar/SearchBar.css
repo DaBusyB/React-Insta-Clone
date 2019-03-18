@@ -21,10 +21,24 @@ time, mark, audio, video {
 
 /*  */
 
-.searchBar {
-	border: 1px solid green;
-	width: 976px;
-	height: 180px;
+.searchBarContainer {
+	border-bottom: 1px solid #DBDBDB;
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 76px;
 	display: inline-block;
-	margin-top: 146px;
+}
+
+.searchBar {
+	text-align: center;
+}
+
+.searchBar input {
+	background-color: #FAFAFA;
+	border: 1px solid #DBDBDB;
+	margin-top: 25px;
+	width: 210px;
+	height: 24px;
+	border-radius: 3px;
+	text-align: center;
 }
