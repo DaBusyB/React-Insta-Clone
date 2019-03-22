@@ -9,7 +9,12 @@ const PostContainer = props => {
 
             <img src={props.eaPost.imageUrl} alt={props.eaPost.username}/>
             
-            <CommentSection />
+            
+            {props.eaPost.comments.map(comment => 
+               <CommentSection username={comment.username} comment={comment.text}/>
+            )}
+            
+          
         </div>
     )
 }
