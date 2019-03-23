@@ -22,7 +22,7 @@ class App extends Component {
           {this.state.igData.map(eaItem =>   
             <PostContainer 
               eaPost={eaItem} 
-              key={eaItem.username} 
+              key={eaItem.timestamp} 
             /> 
           )}
         </div>
