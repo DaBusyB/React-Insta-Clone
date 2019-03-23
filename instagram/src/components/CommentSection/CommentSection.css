@@ -20,16 +20,18 @@ time, mark, audio, video {
 }
 
 /* CommentSection Component */
-.commentSection {
-	width: 584px;
-	height: 56px;
-	margin: 0 auto;
+.commentSection{
+	width: 522px;
+	height: 100%;
+	margin-left: 15px;
+	margin-bottom: 4px;
+	display: flex;
 }
-
 
 /* Icon Component */
 .icons {
 	display: flex;
+	margin-bottom: 32px;
 }
 
 .container .postIcon {

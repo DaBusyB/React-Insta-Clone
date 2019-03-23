@@ -6,9 +6,8 @@ const CommentSection = props => {
     // console.log(props.comments)
     return (
         <div className='commentSection'>
-             
-
-            <p>{props.username}</p><p>{props.comment}</p>
+            <p className='username'>{props.username}</p>
+            <p className='comment'>{props.comment}</p>
         </div>
     )
 }
