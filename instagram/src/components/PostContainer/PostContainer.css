@@ -38,9 +38,7 @@ time, mark, audio, video {
 	
 }
 
-
-/* .iconContainer {
-	border: 1px solid red;
-	margin-top: 7px;
-	height: 25px;
-} */
+.hr {
+	border: .5px solid #DBDBDB;	
+	width: 582px;
+}

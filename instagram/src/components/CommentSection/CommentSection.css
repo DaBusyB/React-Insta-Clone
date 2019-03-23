@@ -30,7 +30,6 @@ time, mark, audio, video {
 /* Icon Component */
 .icons {
 	display: flex;
-	border: 1px solid orange;
 }
 
 .container .postIcon {
@@ -41,12 +40,11 @@ time, mark, audio, video {
 }
 
 .bookmark .postIcon {
-	width: 20px;
+	width: 22px;
 }
 
 .bookmark {
-	border: 1px solid blue;
-	width: 480px;
+	width: 476px;
 	display: flex;
 	justify-content: flex-end;
 }
