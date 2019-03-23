@@ -29,9 +29,18 @@ time, mark, audio, video {
 	margin-top: 49px;
 	margin-bottom: 60px;
 	border-radius: 4px;
+	background-color: #FFFFFF;
 }
 
-.postContainer img {
+.postContainer .postImage {
 	width: 614px;
 	margin-top: 60px;
+	
 }
+
+
+/* .iconContainer {
+	border: 1px solid red;
+	margin-top: 7px;
+	height: 25px;
+} */

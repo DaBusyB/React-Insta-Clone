@@ -19,12 +19,37 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/*  */
-
+/* CommentSection Component */
 .commentSection {
-	border-top: 1px solid #EFEFEF;
 	width: 584px;
 	height: 56px;
 	margin: 0 auto;
-	//margin-top: 262px;
 }
+
+
+/* Icon Component */
+.icons {
+	display: flex;
+	border: 1px solid orange;
+}
+
+.container .postIcon {
+	height: 25px;
+	width: 25px;
+	margin-left: 16px;
+	margin-top: 7px;
+}
+
+.bookmark .postIcon {
+	width: 20px;
+}
+
+.bookmark {
+	border: 1px solid blue;
+	width: 480px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
