@@ -44,4 +44,5 @@ time, mark, audio, video {
 .hr {
 	border: .5px solid #DBDBDB;	
 	width: 582px;
+	margin-bottom: 18px;
 }

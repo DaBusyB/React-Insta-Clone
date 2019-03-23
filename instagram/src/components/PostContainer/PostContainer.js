@@ -3,6 +3,7 @@ import React from 'react';
 import './PostContainer.css'
 import CommentSection from '../CommentSection/CommentSection';
 import Icons from '../CommentSection/Icons'
+import CommentInput from '../CommentSection/CommentInput'
 
 const PostContainer = props => {
     return (
@@ -18,6 +19,7 @@ const PostContainer = props => {
 
             <hr className='hr'/>
             
+            <CommentInput />
           
         </div>
     )
